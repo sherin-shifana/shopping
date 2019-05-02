@@ -210,7 +210,15 @@ iframe {
   display: inline-block;
 }
 .total {
-  text-align: center;
+  float:right;
+  padding: 5px;
+  line-height: 1.5em;
+}
+.total h6 {
+  line-height: 2;
+}
+.total h4 {
+  line-height: 2;
 }
 
 /*------------------------------------------------------------------

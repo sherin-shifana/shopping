@@ -76,7 +76,7 @@ $ret=mysqli_query( $conn, $sql) or die("Could not execute query: " .mysqli_error
 
         }
         $discount = ($total_price*$discount_rate)/100;
-        $total_price = $total_price - $discount;
+        $total = $total_price - $discount;
         // echo $total_price;
 
      ?>
@@ -104,7 +104,14 @@ $ret=mysqli_query( $conn, $sql) or die("Could not execute query: " .mysqli_error
       <br />
       <br />
       <div class="total">
-        <h4 class = "text"><strong>Total Price : </strong><?php echo $total_price; ?></h4>
+        <h6 class = "text">&nbsp; Total MRP : <?php echo $total_price; ?></h6>
+				<h6 class = "text">- Discount &nbsp;&nbsp;: <?php echo $discount; ?></h6>
+				<div class="wrap-input100">
+					</div>
+				<h4 class = "text"><strong>&nbsp;Total&nbsp;&nbsp;&nbsp;: </strong><?php echo $total; ?></h4>
+
+
+
       </div>
 		</div>
 	</div>
