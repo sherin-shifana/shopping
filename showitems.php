@@ -104,11 +104,11 @@ $ret=mysqli_query( $conn, $sql) or die("Could not execute query: " .mysqli_error
       <br />
       <br />
       <div class="total">
-        <h6 class = "text">&nbsp; Total MRP : <?php echo $total_price; ?></h6>
-				<h6 class = "text">- Discount &nbsp;&nbsp;: <?php echo $discount; ?></h6>
+        <h6 class = "text">&nbsp; Total MRP : <i class="fa fa-inr"></i> <?php echo $total_price; ?></h6>
+				<h6 class = "text">- Discount &nbsp;&nbsp;: <i class="fa fa-inr"></i> <?php echo $discount; ?></h6>
 				<div class="wrap-input100">
 					</div>
-				<h4 class = "text"><strong>&nbsp;Total&nbsp;&nbsp;&nbsp;: </strong><?php echo $total; ?></h4>
+				<h4 class = "text"><strong>&nbsp;Total&nbsp;&nbsp;&nbsp;: </strong><i class="fa fa-inr"></i> <?php echo $total; ?></h4>
 
 
 
