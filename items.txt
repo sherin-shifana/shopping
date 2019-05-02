@@ -1,0 +1,11 @@
+id:1
+user:abhi
+item:apple
+quantity:2kg
+price:Rs.90
+
+id:2
+user:sherin
+item:apple
+quantity:1kg
+price:Rs.45
